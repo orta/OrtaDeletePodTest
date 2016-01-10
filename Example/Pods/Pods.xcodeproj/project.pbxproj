@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17FA197E46D064E2C9A15C5D6FB7D8FF /* OrtaDeletePodTest.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1778BD74F07CEA63259C5181AB61C2EE /* OrtaDeletePodTest.bundle */; };
+		63A44355CE5733BD635F7E1F3500C750 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		6E58272B8D43844341948F78C039AC02 /* Pods-OrtaDeletePodTest_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B184C59712726915C3068D58B8A224F0 /* Pods-OrtaDeletePodTest_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C1135408CECE663D46DBF293CEFB13D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		8C855EECA066BB9AB4D96BDD0466CB56 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D99AB4AFA117F1A8E5CC480F8BFA4A /* ReplaceMe.swift */; };
+		A263C7809A0BB943130F74F8B8CE8043 /* Pods-OrtaDeletePodTest_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A75CDE9425E816156442D33C9C2DB5F /* Pods-OrtaDeletePodTest_Tests-dummy.m */; };
+		BFA058595545B6D7210AABBFC42FE6F3 /* OrtaDeletePodTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4261494340C539EFEFCACE6D824A91 /* OrtaDeletePodTest-dummy.m */; };
+		F27E0C05F57D084C9FEA82FC15B9DF66 /* OrtaDeletePodTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE40E7E0E9EE7AE02474445C357D918E /* OrtaDeletePodTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50D002D84B33266FFA5937160083950D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8A474B3B0425DD520D1A0E661F6985E;
+			remoteInfo = "OrtaDeletePodTest-OrtaDeletePodTest";
+		};
+		9B574D283C1C016802B95FF95EC96E66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9C5E21670D06087D50D4AF53ABB1C7D;
+			remoteInfo = OrtaDeletePodTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12DACD636033D0A64DCE6FB091F0C977 /* Pods-OrtaDeletePodTest_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OrtaDeletePodTest_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1778BD74F07CEA63259C5181AB61C2EE /* OrtaDeletePodTest.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrtaDeletePodTest.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A75CDE9425E816156442D33C9C2DB5F /* Pods-OrtaDeletePodTest_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OrtaDeletePodTest_Tests-dummy.m"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3EAC5EDDEDC899F76B6EF9A66ADAC5C7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		458A5DD6B57370C4BF8EEAB77A300C57 /* Pods-OrtaDeletePodTest_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OrtaDeletePodTest_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		612449EC1E3F1834BB2BED78E6F7EF0B /* Pods-OrtaDeletePodTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OrtaDeletePodTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		61D99AB4AFA117F1A8E5CC480F8BFA4A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		64A693D47F358BABD7E3C556E0CF498A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F0983F8FD5D452980A2F458DCEAA3D5 /* Pods_OrtaDeletePodTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrtaDeletePodTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FCB2E9E490C84E3D61516090177854D /* Pods-OrtaDeletePodTest_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OrtaDeletePodTest_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9A4261494340C539EFEFCACE6D824A91 /* OrtaDeletePodTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OrtaDeletePodTest-dummy.m"; sourceTree = "<group>"; };
+		9A83CC8DAE7C9B569FD2148F5E40982B /* Pods-OrtaDeletePodTest_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OrtaDeletePodTest_Tests-resources.sh"; sourceTree = "<group>"; };
+		A0ABF0D829D6B342D665A5822F89D287 /* OrtaDeletePodTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OrtaDeletePodTest.xcconfig; sourceTree = "<group>"; };
+		A7633B0F16D4D657A125BB835E86EE6A /* Pods-OrtaDeletePodTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OrtaDeletePodTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AB2E6FC35FBA743FA7B178D85D8E5D54 /* OrtaDeletePodTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrtaDeletePodTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE40E7E0E9EE7AE02474445C357D918E /* OrtaDeletePodTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OrtaDeletePodTest-umbrella.h"; sourceTree = "<group>"; };
+		B184C59712726915C3068D58B8A224F0 /* Pods-OrtaDeletePodTest_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OrtaDeletePodTest_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BDCCABCDF8931946713166DC48FC8197 /* Pods-OrtaDeletePodTest_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-OrtaDeletePodTest_Tests.modulemap"; sourceTree = "<group>"; };
+		BF40FC4F7547F1691836B4A0427186CF /* OrtaDeletePodTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OrtaDeletePodTest-prefix.pch"; sourceTree = "<group>"; };
+		C32DD9728BC29C84181AF483EAF9342D /* OrtaDeletePodTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = OrtaDeletePodTest.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D54816A83029726930081F43091F08B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A44355CE5733BD635F7E1F3500C750 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DFEE6068F527337C17A65F37B8B43D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D35A2B4F921B3D161B09B3FF712C472 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C1135408CECE663D46DBF293CEFB13D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				A06F97D84C4626076ACB9010E2D421CE /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D9291DD636F5BA5B87935D33F8BBD3DF /* Products */,
+				D754392350292E726E422C9525568625 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A06F97D84C4626076ACB9010E2D421CE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBE3DF783A889749AF55E474232B0297 /* OrtaDeletePodTest */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D754392350292E726E422C9525568625 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCFD53EB4754DB9B68C845A980BDBC49 /* Pods-OrtaDeletePodTest_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D9291DD636F5BA5B87935D33F8BBD3DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1778BD74F07CEA63259C5181AB61C2EE /* OrtaDeletePodTest.bundle */,
+				AB2E6FC35FBA743FA7B178D85D8E5D54 /* OrtaDeletePodTest.framework */,
+				6F0983F8FD5D452980A2F458DCEAA3D5 /* Pods_OrtaDeletePodTest_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9DDFDEF65AD968DD4999FC4C198CCAE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E694B261F1FB80353641604B83DE5DEC /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		E694B261F1FB80353641604B83DE5DEC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				61D99AB4AFA117F1A8E5CC480F8BFA4A /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F0839972060B16C2FDDE4840F9832FD1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64A693D47F358BABD7E3C556E0CF498A /* Info.plist */,
+				C32DD9728BC29C84181AF483EAF9342D /* OrtaDeletePodTest.modulemap */,
+				A0ABF0D829D6B342D665A5822F89D287 /* OrtaDeletePodTest.xcconfig */,
+				9A4261494340C539EFEFCACE6D824A91 /* OrtaDeletePodTest-dummy.m */,
+				BF40FC4F7547F1691836B4A0427186CF /* OrtaDeletePodTest-prefix.pch */,
+				AE40E7E0E9EE7AE02474445C357D918E /* OrtaDeletePodTest-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OrtaDeletePodTest";
+			sourceTree = "<group>";
+		};
+		FBE3DF783A889749AF55E474232B0297 /* OrtaDeletePodTest */ = {
+			isa = PBXGroup;
+			children = (
+				D9DDFDEF65AD968DD4999FC4C198CCAE /* Pod */,
+				F0839972060B16C2FDDE4840F9832FD1 /* Support Files */,
+			);
+			name = OrtaDeletePodTest;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FCFD53EB4754DB9B68C845A980BDBC49 /* Pods-OrtaDeletePodTest_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3EAC5EDDEDC899F76B6EF9A66ADAC5C7 /* Info.plist */,
+				BDCCABCDF8931946713166DC48FC8197 /* Pods-OrtaDeletePodTest_Tests.modulemap */,
+				12DACD636033D0A64DCE6FB091F0C977 /* Pods-OrtaDeletePodTest_Tests-acknowledgements.markdown */,
+				8FCB2E9E490C84E3D61516090177854D /* Pods-OrtaDeletePodTest_Tests-acknowledgements.plist */,
+				1A75CDE9425E816156442D33C9C2DB5F /* Pods-OrtaDeletePodTest_Tests-dummy.m */,
+				458A5DD6B57370C4BF8EEAB77A300C57 /* Pods-OrtaDeletePodTest_Tests-frameworks.sh */,
+				9A83CC8DAE7C9B569FD2148F5E40982B /* Pods-OrtaDeletePodTest_Tests-resources.sh */,
+				B184C59712726915C3068D58B8A224F0 /* Pods-OrtaDeletePodTest_Tests-umbrella.h */,
+				612449EC1E3F1834BB2BED78E6F7EF0B /* Pods-OrtaDeletePodTest_Tests.debug.xcconfig */,
+				A7633B0F16D4D657A125BB835E86EE6A /* Pods-OrtaDeletePodTest_Tests.release.xcconfig */,
+			);
+			name = "Pods-OrtaDeletePodTest_Tests";
+			path = "Target Support Files/Pods-OrtaDeletePodTest_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		46DFEB9E5DA87EE9D5FA09D2098CA236 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E58272B8D43844341948F78C039AC02 /* Pods-OrtaDeletePodTest_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F5B67A9A871B09F8884242A311D768 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27E0C05F57D084C9FEA82FC15B9DF66 /* OrtaDeletePodTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9B0D3F69562D03822E9FB00E1E853235 /* Pods-OrtaDeletePodTest_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FAA7C5523150DDE154FBBED445BE2AA /* Build configuration list for PBXNativeTarget "Pods-OrtaDeletePodTest_Tests" */;
+			buildPhases = (
+				15234E04191D3B75D03531701190FE6B /* Sources */,
+				9D35A2B4F921B3D161B09B3FF712C472 /* Frameworks */,
+				46DFEB9E5DA87EE9D5FA09D2098CA236 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED922416A14939EFD80AED4591DD2982 /* PBXTargetDependency */,
+			);
+			name = "Pods-OrtaDeletePodTest_Tests";
+			productName = "Pods-OrtaDeletePodTest_Tests";
+			productReference = 6F0983F8FD5D452980A2F458DCEAA3D5 /* Pods_OrtaDeletePodTest_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D9C5E21670D06087D50D4AF53ABB1C7D /* OrtaDeletePodTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6B7C1E446F0341C4F79913B050D0C90 /* Build configuration list for PBXNativeTarget "OrtaDeletePodTest" */;
+			buildPhases = (
+				6C5DD46DA5CC330D25E28B2C35EEC370 /* Sources */,
+				2D54816A83029726930081F43091F08B /* Frameworks */,
+				21A392B9D0595D8B342C553DE9F30314 /* Resources */,
+				A7F5B67A9A871B09F8884242A311D768 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				028D47FD99638C8336ECC8AB60D8628F /* PBXTargetDependency */,
+			);
+			name = OrtaDeletePodTest;
+			productName = OrtaDeletePodTest;
+			productReference = AB2E6FC35FBA743FA7B178D85D8E5D54 /* OrtaDeletePodTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E8A474B3B0425DD520D1A0E661F6985E /* OrtaDeletePodTest-OrtaDeletePodTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9586676B0CC85603F588CF1C5252EB4 /* Build configuration list for PBXNativeTarget "OrtaDeletePodTest-OrtaDeletePodTest" */;
+			buildPhases = (
+				1FF7AA407A59E43005B2CF12D8F276C8 /* Sources */,
+				6DFEE6068F527337C17A65F37B8B43D3 /* Frameworks */,
+				9254F748ED6CD4D6B36D1075C9AC1243 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OrtaDeletePodTest-OrtaDeletePodTest";
+			productName = "OrtaDeletePodTest-OrtaDeletePodTest";
+			productReference = 1778BD74F07CEA63259C5181AB61C2EE /* OrtaDeletePodTest.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D9291DD636F5BA5B87935D33F8BBD3DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9C5E21670D06087D50D4AF53ABB1C7D /* OrtaDeletePodTest */,
+				E8A474B3B0425DD520D1A0E661F6985E /* OrtaDeletePodTest-OrtaDeletePodTest */,
+				9B0D3F69562D03822E9FB00E1E853235 /* Pods-OrtaDeletePodTest_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21A392B9D0595D8B342C553DE9F30314 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17FA197E46D064E2C9A15C5D6FB7D8FF /* OrtaDeletePodTest.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9254F748ED6CD4D6B36D1075C9AC1243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15234E04191D3B75D03531701190FE6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A263C7809A0BB943130F74F8B8CE8043 /* Pods-OrtaDeletePodTest_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF7AA407A59E43005B2CF12D8F276C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C5DD46DA5CC330D25E28B2C35EEC370 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA058595545B6D7210AABBFC42FE6F3 /* OrtaDeletePodTest-dummy.m in Sources */,
+				8C855EECA066BB9AB4D96BDD0466CB56 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		028D47FD99638C8336ECC8AB60D8628F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OrtaDeletePodTest-OrtaDeletePodTest";
+			target = E8A474B3B0425DD520D1A0E661F6985E /* OrtaDeletePodTest-OrtaDeletePodTest */;
+			targetProxy = 50D002D84B33266FFA5937160083950D /* PBXContainerItemProxy */;
+		};
+		ED922416A14939EFD80AED4591DD2982 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OrtaDeletePodTest;
+			target = D9C5E21670D06087D50D4AF53ABB1C7D /* OrtaDeletePodTest */;
+			targetProxy = 9B574D283C1C016802B95FF95EC96E66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E4ADFFF2F5E1C1A0EE83F5EA7ED93E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7633B0F16D4D657A125BB835E86EE6A /* Pods-OrtaDeletePodTest_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OrtaDeletePodTest_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OrtaDeletePodTest_Tests/Pods-OrtaDeletePodTest_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_OrtaDeletePodTest_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		481BF79A8BE4832CA40E082F4BEB6F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0ABF0D829D6B342D665A5822F89D287 /* OrtaDeletePodTest.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = OrtaDeletePodTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		73E4A407A54192DF646FFFD68D78AE1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0ABF0D829D6B342D665A5822F89D287 /* OrtaDeletePodTest.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OrtaDeletePodTest/OrtaDeletePodTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OrtaDeletePodTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OrtaDeletePodTest/OrtaDeletePodTest.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = OrtaDeletePodTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A14A5E9FA6D88D8F6F4EDA4B92770519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0ABF0D829D6B342D665A5822F89D287 /* OrtaDeletePodTest.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = OrtaDeletePodTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		BD4E322C81DE8D4307313356EF6FC590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0ABF0D829D6B342D665A5822F89D287 /* OrtaDeletePodTest.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OrtaDeletePodTest/OrtaDeletePodTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OrtaDeletePodTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OrtaDeletePodTest/OrtaDeletePodTest.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = OrtaDeletePodTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C9C4C15BFDB5598992E480AE736BD017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 612449EC1E3F1834BB2BED78E6F7EF0B /* Pods-OrtaDeletePodTest_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OrtaDeletePodTest_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OrtaDeletePodTest_Tests/Pods-OrtaDeletePodTest_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_OrtaDeletePodTest_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FAA7C5523150DDE154FBBED445BE2AA /* Build configuration list for PBXNativeTarget "Pods-OrtaDeletePodTest_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C4C15BFDB5598992E480AE736BD017 /* Debug */,
+				3E4ADFFF2F5E1C1A0EE83F5EA7ED93E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9586676B0CC85603F588CF1C5252EB4 /* Build configuration list for PBXNativeTarget "OrtaDeletePodTest-OrtaDeletePodTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14A5E9FA6D88D8F6F4EDA4B92770519 /* Debug */,
+				481BF79A8BE4832CA40E082F4BEB6F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6B7C1E446F0341C4F79913B050D0C90 /* Build configuration list for PBXNativeTarget "OrtaDeletePodTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73E4A407A54192DF646FFFD68D78AE1F /* Debug */,
+				BD4E322C81DE8D4307313356EF6FC590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

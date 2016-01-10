@@ -1,0 +1,14 @@
+PODS:
+  - OrtaDeletePodTest (0.1.0)
+
+DEPENDENCIES:
+  - OrtaDeletePodTest (from `../`)
+
+EXTERNAL SOURCES:
+  OrtaDeletePodTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OrtaDeletePodTest: 3e0df3773f699ab55993d6061693a903a993df1e
+
+COCOAPODS: 0.39.0

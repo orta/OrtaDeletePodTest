@@ -1,0 +1,6 @@
+framework module OrtaDeletePodTest {
+  umbrella header "OrtaDeletePodTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
