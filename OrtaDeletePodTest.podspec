@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version          = "0.1.0"
   s.summary          = "To be deleted."
 
-  s.description      = <<-DESC
+  s.description      = <<-DESC Uh oh, this shouldn't be here, best remove this.
                        DESC
 
   s.homepage         = "https://github.com/orta/OrtaDeletePodTest"
