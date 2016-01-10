@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "OrtaDeletePodTest"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "To be deleted."
 
   s.description      = <<-DESC Uh oh, this shouldn't be here, best remove this.
