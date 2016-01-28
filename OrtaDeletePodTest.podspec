@@ -1,10 +1,9 @@
 Pod::Spec.new do |s|
   s.name             = "OrtaDeletePodTest"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "To be deleted."
 
-  s.description      = <<-DESC Uh oh, this shouldn't be here, best remove this.
-                       DESC
+  s.description      = "Uh oh, this shouldn't be here, best remove this."
 
   s.homepage         = "https://github.com/orta/OrtaDeletePodTest"
   s.license          = 'MIT'
