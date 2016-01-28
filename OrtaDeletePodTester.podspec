@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = "OrtaDeletePodTest"
+  s.name             = "OrtaDeletePodTester"
   s.version          = "0.1.2"
   s.summary          = "To be deleted."
 
